@@ -3,7 +3,7 @@ import { MdEmail, MdAccessTime, MdPhone } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#364E46] text-white px-6 md:px-50 py-10">
+    <footer className="bg-[#3C5148] text-white px-6 md:px-40 py-10">
       {/* Slogan */}
       <h2 className="text-2xl md:text-3xl font-bold mb-15 mt-5">
         Jiwa Kesatria, Prestasi Mendunia
@@ -56,8 +56,8 @@ export default function Footer() {
           <div className="mt-4 flex items-start gap-2">
             <MdAccessTime className="mt-1" />
             <div>
-              <p>Senin : 07.00 WIB – 15.00 WIB</p>
-              <p>Jumat : 07.00 WIB – 15.00 WIB</p>
+              <p>Senin : 07.00 WIB - 15.00 WIB</p>
+              <p>Jumat : 07.00 WIB - 15.00 WIB</p>
             </div>
           </div>
         </div>
